@@ -18,10 +18,10 @@ $ git clone https://github.com/totango/ec2-ssh.git
 ```
 
 ### 2. Go to your  .bashrc/.zshrc/.bash_profile and set the export the next Variables:
-
+```
 export AWS_ACCESS_KEY_ID={Replace with your Amazon Access Key}
 export AWS_SECRET_ACCESS_KEY={Replace with your amazon Secret Kek}
-
+```
 ### 3. Then source your profile file.
 ```
 $ source  .bashrc/.zshrc/.bash_profile
