@@ -23,14 +23,17 @@ export AWS_ACCESS_KEY_ID={Replace with your Amazon Access Key}
 export AWS_SECRET_ACCESS_KEY={Replace with your amazon Secret Kek}
 
 3. Then source your profile file.
-
+```
 $ source  .bashrc/.zshrc/.bash_profile
+```
 
 
 4. Go to the repo you have cloned and run setup.py
 
-
+```
 $ python setup.py install
+```
+
 
 
 
