@@ -40,8 +40,8 @@ def ec2_active_instances(label_tag, filters):
     for reservation in reservations:
         for instance in reservation.instances:
             instance_name = instance.tags.get(label_tag)
-            if instance.public_dns_name:
-                pair = (instance_name, instance.public_dns_name)
+            if instance.private_dns_name:
+                pair = (instance_name, instance.private_dns_name)
                 instances.append(pair)
     return instances
 
