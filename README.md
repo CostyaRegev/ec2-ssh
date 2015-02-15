@@ -4,11 +4,7 @@ ec2-ssh is a ssh_config manager for Amazon EC2.
 
 ec2ssh command adds Host descriptions to ssh_config (~/.ssh/config default). 'Name' tag of instances are used as Host descriptions and the Private-Dns is used for ssh.
 
-
-# How to use
-
-
-## Setup
+# Setup
 
 ### 1. Clone the current repo to your local machine
 
