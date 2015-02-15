@@ -2,7 +2,7 @@
 
 ec2-ssh is a ssh_config manager for Amazon EC2.
 
-ec2ssh command adds Host descriptions to ssh_config (~/.ssh/config default). 'Name' tag of instances are used as Host descriptions and the Private-Dns is used for ssh.
+ec2-ssh command adds Host descriptions to ssh_config (~/.ssh/config default). 'Name' tag of instances are used as Host descriptions and the Private-Dns are used for ssh.
 
 # Setup
 
@@ -35,7 +35,6 @@ $ python setup.py install
 sh update_hosts.sh
 ```
 Now try ssh to one of the hosts by name:
-Example:
 ```
 $ ssh Name-Of-Host
 ```
