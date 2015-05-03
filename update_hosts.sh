@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 grp=$(grep -n "#####AmazonHosts#####" ~/.ssh/config | awk -F ":" '{print $1}')
 if [[ ! -z $grp ]]; then
